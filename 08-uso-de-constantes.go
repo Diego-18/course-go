@@ -5,6 +5,10 @@ import "fmt"
 const a = 42
 const b = 42.32
 const c = "Diego Chavez"
+const (
+	Youtube = "Diego Chavez Web"
+	Github  = "Diego-18"
+)
 
 type nombre string
 
@@ -22,4 +26,7 @@ func main() {
 
 	d = c
 	fmt.Println(d)
+
+	fmt.Println("Mi canal de Youtube es:", Youtube)
+	fmt.Println("Mi cuenta de Github es:", Github)
 }
