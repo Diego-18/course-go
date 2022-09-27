@@ -19,8 +19,8 @@ type cstmEdad int
 var x cstmEdad
 
 func main() {
-	fmt.Println(x)                                             	//a
-	fmt.Printf("El tipo de dato de la variable x es: %T\n", x) 	//b
-	x = 42								                                      //c
-	fmt.Println(x)							                                //d
+	fmt.Println(x)                                             //a
+	fmt.Printf("El tipo de dato de la variable x es: %T\n", x) //b
+	x = 42                                                     //c
+	fmt.Printf("La edad para obtener beneficios es de: %d", x) //d
 }
