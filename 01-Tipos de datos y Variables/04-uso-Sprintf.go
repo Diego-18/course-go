@@ -17,9 +17,11 @@ package main
 
 import "fmt"
 
-var x int
-var y string
-var z bool
+var (
+	x int
+	y string
+	z bool
+)
 
 func main() {
 	x = 42
@@ -30,4 +32,4 @@ func main() {
 	fmt.Println(s)
 }
 
-// Out: James Bond is agent with 42 years. 	 active: true 
+// Out: James Bond is agent with 42 years. 	 active: true

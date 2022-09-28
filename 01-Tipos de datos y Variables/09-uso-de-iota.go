@@ -3,7 +3,7 @@ package main
 
 import "fmt"
 
-const (
+var (
 	_      = 5 * iota
 	item1  = 5 * iota
 	item2  = 5 * iota
