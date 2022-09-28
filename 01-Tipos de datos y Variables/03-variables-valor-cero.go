@@ -17,15 +17,17 @@ package main
 
 import "fmt"
 
-var x int
-var y string
-var z bool
+var (
+	x int
+	y string
+	z bool
+)
 
 func main() {
-  //a
-  fmt.Println(x) //out: 0
-  fmt.Println(y) //out: 
-  fmt.Println(z) //out: false
+	//a
+	fmt.Println(x) //out: 0
+	fmt.Println(y) //out:
+	fmt.Println(z) //out: false
 }
 
 // b) Los valores son llamados "valor cero"
